@@ -1,0 +1,109 @@
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#videoContainer {
+    position: absolute;
+    overflow: hidden;
+}
+
+#controlDiv {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+        text-align: center;
+}
+
+.controls {
+    margin: 20px;
+}
+
+#info {
+    font-size: 24px;
+    font-weight: bold;
+    background: white;
+    border: 5px solid red;
+}
+
+.button {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 18px;
+    border: 5px solid black;
+}
+
+
+
+.video-js {
+    -webkit-user-select: none;
+
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+}
+
+.vjs-poster {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+}
+
+#videos {
+
+    position: relative;
+    width: 1px;
+    table-layout: fixed;
+
+}
+
+#videos td {
+
+
+    background-size: cover;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border: 0 solid #999999;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#videos tr {
+    padding: 0;
+    margin: 0;
+}
+
+#info {
+    padding-right: 50;
+}
+
+#videoInfo {
+    border-collapse: collapse;
+}
+
+#videoInfo td {
+    padding: 2em;
+    text-align: right;
+}
+
+
+/*#videoinfo td{
+    max-width: 100;
+}*/
